@@ -45,7 +45,15 @@ CDN is a system of distributed servers that deliver web pages and other web cnte
   - Telnet - 23 
   - https - 443 
   - DNS - 53
-- **DNS** - turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.  
+- **DNS** - turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
+-  *overlay network*- An overlay network is a network that is built on top of another network and is supported by its infrastructure. An overlay network decouples network services from the underlying infrastructure by encapsulating one network packet inside of another packet.
+-  *underlay network* -the underlay network means all the physical infrastructure that enables frames and packets to be forwarded from o one point to another. In other words, we can understand the underlay networks as the “place” on which it is possible to connect and communicate with networking devices.
+-  *cni*- CNI stands for container network interface and it's a specification to configure network interfaces in Linux containers. And it is concerned mainly with adding, connecting and deleting disconnecting containers to networks.
+-  *funnel*-Flannel, a project developed by the CoreOS, is perhaps the most straightforward and popular CNI plugin available. It is one of the most mature examples of networking fabric for container orchestration systems, intended to allow for better inter-container and inter-host networking. Flannel is a simple and easy way to configure a layer 3 network fabric designed for Kubernetes.
+-  *TUN && TAP*- In computer networking, TUN and TAP are kernel virtual network devices. Being network devices supported entirely in software, they differ from ordinary network devices which are backed by physical network adapters.
+  - **TUN** :carries ip packets 
+  - **TAP** :carries ethernet frames
+- *veth*- The veth devices are virtual Ethernet devices. They can act as tunnels between network namespaces to create a bridge to a physical network device in another namespace, but can also be used as standalone network devices 
 ## Storage: 
 - ***Primary***
   - **RAM**

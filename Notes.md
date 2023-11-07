@@ -78,3 +78,7 @@ CDN is a system of distributed servers that deliver web pages and other web cnte
 - **ACID Compliance**: (**A**tomicity, **C**onsistency, **I**solation, **D**urability) Reduces anomalies
 ## Caching
 - **Application Server Cache**: Placing a cache directly on a request layer node (Local Storage of Response).
+- **Bottle Neck**- If a same requaest is sent to different nodes by load balancer
+- **Distributed cache**: Divided using consistent *Hashing* function.
+  - **Hashing**: The process of transforming any given key or a string of characters into another value.  
+- **Gloabal Cache**
